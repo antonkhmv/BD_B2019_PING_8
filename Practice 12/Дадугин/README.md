@@ -12,20 +12,20 @@
     "copyNumber": , 
     "categories":[
         {
-            id: , 
-            name: , 
-            parentCategory: 
+            "id": , 
+            "name": , 
+            "parentCategory": 
             
         },
         {
-            id: , 
-            name: , 
-            parentCategory: 
+            "id": , 
+            "name": , 
+            "parentCategory": 
         }
     ],
     "publisher":{
-                    publisherName: , 
-                    publisherAdress: 
+                    "publisherName": , 
+                    "publisherAddress": 
     },
     "position": 
 } 
@@ -65,19 +65,19 @@
             "copyNumber": ,
             "category":[
                 {
-                    id: ,
-                    name: ,
-                    parentCategory: 
+                    "id": ,
+                    "name": ,
+                    "parentCategory": 
                 }, 
                 {
-                    id: ,
-                    name: ,
-                    parentCategory: 
+                    "id": ,
+                    "name": ,
+                    "parentCategory": 
                 }
             ],
             "publisher":{
-                publisherName: ,
-                publisherAdress:
+                "publisherName": ,
+                "publisherAddress":
             },
             "position": 
         }, 
@@ -91,19 +91,19 @@
             "copyNumber": ,
             "category":[
                 {
-                    id: ,
-                    name: ,
-                    parentCategory: 
+                    "id": ,
+                    "name": ,
+                    "parentCategory": 
                 }, 
                 {
-                    id: ,
-                    name: ,
-                    parentCategory: 
+                    "id": ,
+                    "name": ,
+                    "parentCategory": 
                 }
             ],
             "publisher":{
-                publisherName: ,
-                publisherAdress:
+                "publisherName": ,
+                "publisherAddress":
             },
             "position": 
         }, 
@@ -116,8 +116,8 @@
 ## Формат для категорий
 ```json
 { 
-    id: ,
-    name: ,
-    parentCategory: ,
+    "id": ,
+    "name": ,
+    "parentCategory": ,
 }
 ```

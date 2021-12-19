@@ -24,8 +24,8 @@
         }
     ],
     "publisher":{
-                    "publisherName": , 
-                    "publisherAddress": 
+        "publisherName": , 
+        "publisherAddress": 
     },
     "position": 
 } 

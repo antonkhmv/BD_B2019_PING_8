@@ -4,12 +4,12 @@
 ## Формат для книг
 ```json
 { 
-    "isbn": 
-    "year": 
-    "name": 
-    "author": 
-    "numPages": 
-    "copyNumber": 
+    "isbn": ,
+    "year": ,
+    "name": ,
+    "author": , 
+    "numPages": , 
+    "copyNumber": , 
     "categories":[
         {
             id: , 
@@ -22,11 +22,11 @@
             name: , 
             parentCategory: 
         }
-    ] 
+    ],
     "publisher":{
                     publisherName: , 
                     publisherAdress: 
-    } 
+    },
     "position": 
 } 
 ```
@@ -34,35 +34,35 @@
 ## Формат для читателей
 ```json
 { 
-    "id": 
-    "name": 
-    "surname": 
-    "address": 
-    "birthDate": 
+    "id": ,
+    "name": , 
+    "surname": , 
+    "address": ,
+    "birthDate": , 
 } 
 ```
 
 ## Формат для бронирования
 ```json
 { 
-    "id": 
+    "id": ,
 
     "reader":{ 
-        "id": 
-        "name": 
-        "surname": 
-        "address": 
-        "birthDate": 
-    } 
+        "id": ,
+        "name": ,
+        "surname": ,
+        "address": ,
+        "birthDate": ,
+    },
 
     "books":[ 
         { 
-            "isbn": 
-            "year": 
-            "name": 
-            "author": 
-            "numPages": 
-            "copyNumber": 
+            "isbn": ,
+            "year": ,
+            "name": ,
+            "author": ,
+            "numPages": ,
+            "copyNumber": ,
             "category":[
                 {
                     id: ,
@@ -74,21 +74,21 @@
                     name: ,
                     parentCategory: 
                 }
-            ] 
+            ],
             "publisher":{
                 publisherName: ,
                 publisherAdress:
-            } 
+            },
             "position": 
         }, 
 
         { 
-            "isbn": 
-            "year": 
-            "name": 
-            "author": 
-            "numPages": 
-            "copyNumber": 
+            "isbn": ,
+            "year": ,
+            "name": ,
+            "author": ,
+            "numPages": ,
+            "copyNumber": ,
             "category":[
                 {
                     id: ,
@@ -100,14 +100,14 @@
                     name: ,
                     parentCategory: 
                 }
-            ] 
+            ],
             "publisher":{
                 publisherName: ,
                 publisherAdress:
-            } 
+            },
             "position": 
         }, 
-    ] 
+    ],
 
     "returnDate": 
 } 
@@ -116,8 +116,8 @@
 ## Формат для категорий
 ```json
 { 
-    id: 
-    name: 
-    parentCategory: 
+    id: ,
+    name: ,
+    parentCategory: ,
 }
 ```
